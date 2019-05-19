@@ -8,7 +8,7 @@ body {
 
 .bienvenidos {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
-  color: #fff;
+  /* color: #fff; */
   background-size: cover;
   background-attachment: fixed !important;
   height: 100vh;
@@ -48,8 +48,10 @@ body {
           flex-wrap: wrap; }
 
 .encabezado .logo img {
-  width: 100px;
-  height: auto; }
+  width: 93px;
+  height: auto;
+  margin: 1px 0;
+ }
 
 /* #whatsapp{
   width: 40px;
@@ -172,9 +174,15 @@ a.link{
   color: black;
 }
 
-.texto-encabezado, h1, h2, .Experiencia{
+.Experiencia{
   color: black;
   font-weight: bold;
+}
+
+.Experiencia, p, .parrafo{
+  font-size: 1rem;
+  font-weight: 300 !important;
+  letter-spacing: 1px;
 }
 
 .btn-warning {
@@ -189,35 +197,6 @@ a.link{
 .btn-warning:active:hover {
   background-color:  #fcdc14;
   border-color: transparent; }
-
-.flecha-bajar a {
-  display: inline-block;
-  color: rgb(0, 0, 0);
-  font-size: 5rem;
-  -webkit-animation: flecha-animada 1s ease-in-out infinite;
-          animation: flecha-animada 1s ease-in-out infinite; }
-
-@-webkit-keyframes flecha-animada {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  50% {
-    -webkit-transform: translateY(6px);
-            transform: translateY(6px); }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-
-@keyframes flecha-animada {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  50% {
-    -webkit-transform: translateY(6px);
-            transform: translateY(6px); }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
 /*-----------------------------
 SECCION AGENCIA
 ------------------------------*/
@@ -368,12 +347,11 @@ SECCION ├ÜLTIMOS PROYECTOS
 SECCION PIE DE PAGINA
 -----------------------------------------*/
 .piedepagina {
-  background: #111111;
+  background: #000000;
   color: #fff;
-  text-align: center;
-  font-size: .9rem; }
+  font-size: 1.5rem; }
 
-.piedepagina .redes-sociales {
+.piedepagina{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -386,23 +364,32 @@ SECCION PIE DE PAGINA
   margin: 0;
   padding: 0; }
 
-.piedepagina .redes-sociales a {
-  color: #fff;
-  font-size: 2rem;
-  margin: 0 .5rem;
-  opacity: .7;
-  -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+/* .footerRedSocial i {
+  font-size: 1.5rem;
+} */
 
-.piedepagina .redes-sociales a:hover {
-  opacity: 1; }
+.footerRedSocial img{
+  width: 35px;
+}
+
+.footerRedSocial a{
+  color: white;
+  text-decoration: none;
+  /* margin-left: 5px;
+  margin-right: 2rem; */
+  font-size: 1.5rem;
+}
+
+.footerRedSocial a:hover{
+  color: white;
+}
 
 .ir-arriba {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   font-size: 3rem;
-  color: #12afaf;
+  color: #ffd900;
   text-decoration: none;
   z-index: 99999;
   line-height: 0;

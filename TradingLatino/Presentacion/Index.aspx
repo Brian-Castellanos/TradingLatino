@@ -1,16 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Presentacion.Index" %>
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
     <title>Trading Latino | Cryptocurrency Bussiness Coach</title>
-
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <!-- Cargando fuentes -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- Cargando iconos -->
     <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
@@ -22,8 +23,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
+
 <body>
     <section class="bienvenidos">
 
@@ -31,7 +32,7 @@
             <div class="container">
                 <a href="index.html" class="logo">
                     <img src="images/logo2.png" alt="Logo del sitio">
-                    <a class="navbar-brand link" href="#"> Trading Latino</a>
+                    <a class="navbar-brand link ml-3" href="#"> Jaime Merino</a>
                 </a>
                 <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse"
                     data-target="#menu-principal" aria-expanded="false">
@@ -40,10 +41,10 @@
                 <nav id="menu-principal" class="collapse">
                     <ul>
                         <li class="active"><a href="index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="login.html">Login</li>
+                        <li><a href="#">Mi historia</a></li>
+                        <li><a href="#">Mis Servicios</a></li>
+                        <li><a href="#">Preguntas / Respuestas</a></li>
+                        <li><a href="Administrator.aspx">Login</li>
                     </ul>
                 </nav>
 
@@ -55,18 +56,18 @@
             <div class="container mt-3">
                 <div class="row">
 
-                    <div class="col-md-8 col-xl-8 mt-1">
+                    <div class="col-xl-8 col-xl-8 mt-1">
                         <h1 class="mt-3">
                             <a href="" class="typewrite" data-period="2000"
                                 data-type='[ "Es hora de llevar tus inversiones al siguiente nivel! ", "Bitcoin y Cryptocurrency Bussiness Coach", "Paso a paso opera conmigo Criptomonedas" ]'>
                                 <span class="wrap"></span>
                             </a>
                         </h1>
-                        <div class="Experiencia mt-3">
+                        <div class="Experiencia mt-2">
                             <!-- ... -->
                         </div>
                     </div>
-                    <div class="col-md-4 col-xl-4">
+                    <div class="col-xl-4 col-xl-4">
                         <img class="wow bounceInRight mt-3 img-fluid" src="images/Jaime.png">
                     </div>
 
@@ -74,9 +75,6 @@
 
             </div>
 
-        </div>
-        <div class="flecha-bajar text-xs-center">
-            <a data-scroll href="#agencia"> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
         </div>
 
     </section>
@@ -87,7 +85,7 @@
 
             <div class="row">
 
-                <div class="col-md-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
+                <div class="col-xl-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
                     <h2 class="h3 text-xs-center text-md-left font-weight-bold">¿Qué es el blockchain?
                     </h2>
                     <p>La presente definición de cadena de bloques (block chain) es la referida a la tecnología Bitcoin
@@ -102,13 +100,13 @@
                         y la verificación de que ésta no ha sido cambiada.</p>
                 </div>
                 <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
-                    <img class="img-fluid" src="images/Bitcoin.svg" alt="La agencia">
+                    <img class="img-fluid mt-1" src="images/Bitcoin.svg" alt="La agencia">
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="tu-mejor-eleccion py-1">
+    <!-- <section class="tu-mejor-eleccion py-1">
         <div class="container">
 
             <h2 class="h3 text-xs-center font-weight-bold">¿Porque somos <span>tu mejor elección?</span></h2>
@@ -175,36 +173,36 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <main class="servicios py-1">
         <div class="container">
-            <h2 class="text-xs-center font-weight-bold">Nuestros Servicios</h2>
+            <h2 class="text-xs-center font-weight-bold">Encontraras</h2>
 
 
             <div class="row">
-                <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
-                    <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
-                    <h3><a href="#"> Desarrollo de Aplicaciones Mobiles </a></h3>
-                    <p class="hidden-sm-down">Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal
-                        cualidad está en el desarrollo de software a medida de tus necesidades.</p>
+                <article class="col-xl-4 wow bounceInLeft" data-wow-delay=".3s">
+                    <img src="images/video-curso.svg" alt="Cryptocurrency Online Curso ">
+                    <h3><a href="#"> Cryptocurrency Online Curso  </a></h3>
+                    <!-- <p class="hidden-sm-down">Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal
+                        cualidad está en el desarrollo de software a medida de tus necesidades.</p> -->
                     <a href="#" class="btn btn-secondary hidden-sm-down">Más información</a>
 
                 </article>
 
-                <article class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
-                    <img src="images/servicio-2.svg" alt="Servicio Consultoría Tecnológica">
-                    <h3><a href="#">Consultoría Tecnológica</a></h3>
-                    <p class="hidden-sm-down">Ofrecemos consultoría tecnológica especializada en movilidad, necesaria
-                        previo al desarrollo de cualquier proyecto.</p>
+                <article class="col-xl-4 wow bounceInUp" data-wow-delay=".6s">
+                    <img src="images/audio-book.svg" alt="Cryptocurrency Audio Libros Gratis ">
+                    <h3><a href="#">Cryptocurrency Audio Libros Gratis </a></h3>
+                    <!-- <p class="hidden-sm-down">Ofrecemos consultoría tecnológica especializada en movilidad, necesaria
+                        previo al desarrollo de cualquier proyecto.</p> -->
                     <a href="#" class="btn btn-secondary hidden-sm-down">Más información</a>
                 </article>
 
-                <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
-                    <img src="images/servicio-3.svg" alt="Servicio Marketing y publicidad Movil">
-                    <h3><a href="#">Marketing y publicidad Movil</a></h3>
-                    <p class="hidden-sm-down">Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu
-                        marca en el momento exacto para conseguir un mayor inpacto.</p>
+                <article class="col-xl-4 wow bounceInRight" data-wow-delay="1s">
+                    <img src="images/pdf.svg" alt="Cryptocurrency Libros PDF Gratis">
+                    <h3><a href="#">Cryptocurrency Libros PDF Gratis</a></h3>
+                    <!-- <p class="hidden-sm-down">Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu
+                        marca en el momento exacto para conseguir un mayor inpacto.</p> -->
                     <a href="#" class="btn btn-secondary hidden-sm-down">Más información</a>
                 </article>
 
@@ -213,7 +211,7 @@
     </main>
 
 
-    <section class="ultimos-proyectos py-1">
+    <!-- <section class="ultimos-proyectos py-1">
         <div class="container">
             <h2 class="text-xs-center font-weight-bold">Últimos proyectos</h2>
 
@@ -251,15 +249,46 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <!--    FOOTER -->
     <footer class="piedepagina py-1" role="contentinfo">
         <div class="container">
-            <p>2016 © NETWORK Todos los derechos reservados</p>
-            <ul class="redes-sociales">
+            <div class="footerRedSocial mt-1 mb-1 text-xs-center">
+
+                <img src="images/whatsapp.svg" class="img-fluid mr-1 "><a href="#">+503 72625456 </a>
+                <img src="images/email.svg" class="img-fluid ml-3 mr-1"><a href="#">info@tradinglatino.net |
+                    j.abisai@gmail.com</a></i>
+
+                <div class="container">
+                    <div class="iconosRedSocial mt-1">
+                        <a href="https://www.facebook.com/TradingLatino.net">
+                            <img src="images/facebook.svg" class="img-fluid rounded">
+                            Facebook
+                        </a>
+                        <a href="http://twitter.com/TradingLatino">
+                            <img src="images/twitter.svg" class="img-fluid ">
+                            Twitter
+                        </a>
+                        <a href="https://www.youtube.com/Tradinglatino">
+                            <img src="images/youtube.svg" class="img-fluid rounded">
+                            Youtube
+                        </a>
+                        <a href="https://t.me/TradingLatino">
+                            <img src="images/telegram.svg" class="img-fluid">
+                            Teleragm
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <ul class="redes-sociales">
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"> </i> </a></li>
                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
                 <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
-            </ul>
+            </ul> -->
+
+            <!-- <p>2019 © NETWORK Todos los derechos reservados</p> -->
 
         </div>
 
@@ -302,5 +331,9 @@
     <script src="js/wow.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/sitio.js"></script>
+
+
+
 </body>
+
 </html>
