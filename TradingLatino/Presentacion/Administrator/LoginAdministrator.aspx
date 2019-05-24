@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Administrator.aspx.cs" Inherits="Presentacion.Administrator" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginAdministrator.aspx.cs" Inherits="Presentacion.Administrator" %>
 
 <!DOCTYPE html>
 
@@ -6,10 +6,10 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <link href="css/login.css" rel="stylesheet" />
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/jquery.min.js"></script>
+    <link href="~/assets/css/login.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,19 +20,21 @@
 
                 <!-- Icon -->
                 <div class="fadeIn first TSesion mt-2 mb-1">
-                    <img src="images/logo2.png" class="mt-1" id="icon" alt="User Icon" />
+                    <img src="../assets/images/logo2.png" class="mt-1" id="icon" alt="User Icon" />
                 </div>
 
                 <!-- Login Form -->
                 <div>
                     <asp:TextBox ID="login" CssClass="fadeIn second mb-1" name="login" placeholder="Usuario" runat="server"></asp:TextBox>
                     <asp:TextBox ID="password" CssClass="fadeIn third mb-1" name="login" placeholder="Contraseña" runat="server"></asp:TextBox>
-                    <asp:Button ID="btnAcceso" CssClass="fadeIn fourth" value="Log In" runat="server" Text="Accesar" />
+                    <asp:Button ID="btnAcceso" CssClass="fadeIn fourth" value="Log In" runat="server" Text="Accesar" OnClick="btnAcceso_Click" />
+                    <asp:TextBox ID="SesionUsuario" runat="server"></asp:TextBox>
+                    <asp:Label ID="lblSesionUsuario" runat="server"></asp:Label>
                 </div>
 
                 <!-- Remind Passowrd -->
                 <div id="formFooter">
-                    <a class="underlineHover" href="Index.aspx">Ir al sitio</a>
+                    <a class="underlineHover" href="/Index.aspx">Ir al inicio</a>
                 </div>
 
             </div>

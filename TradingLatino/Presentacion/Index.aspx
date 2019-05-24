@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- Cargando iconos -->
-    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='assets/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
     <!-- Carga de Galeria de imágenes -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
     <!-- Carga de archivos css -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         <header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
             <div class="container">
                 <a href="index.html" class="logo">
-                    <img src="images/logo2.png" alt="Logo del sitio">
+                    <img src="assets/images/logo2.png" alt="Logo del sitio">
                     <a class="navbar-brand link ml-3" href="#"> Jaime Merino</a>
                 </a>
                 <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse"
@@ -44,7 +44,7 @@
                         <li><a href="#">Mi historia</a></li>
                         <li><a href="#">Mis Servicios</a></li>
                         <li><a href="#">Preguntas / Respuestas</a></li>
-                        <li><a href="Administrator.aspx">Login</li>
+                        <li><a href="Members/LoginMembers.aspx">Zona VIP Platinum</li>
                     </ul>
                 </nav>
 
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-xl-4">
-                        <img class="wow bounceInRight mt-3 img-fluid" src="images/Jaime.png">
+                        <img class="wow bounceInRight mt-3 img-fluid" src="assets/images/Jaime.png">
                     </div>
 
                 </div>
@@ -100,7 +100,7 @@
                         y la verificación de que ésta no ha sido cambiada.</p>
                 </div>
                 <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
-                    <img class="img-fluid mt-1" src="images/Bitcoin.svg" alt="La agencia">
+                    <img class="img-fluid mt-1" src="assets/images/Bitcoin.svg" alt="La agencia">
                 </div>
             </div>
         </div>
@@ -182,7 +182,7 @@
 
             <div class="row">
                 <article class="col-xl-4 wow bounceInLeft" data-wow-delay=".3s">
-                    <img src="images/video-curso.svg" alt="Cryptocurrency Online Curso ">
+                    <img src="assets/images/video-curso.svg" alt="Cryptocurrency Online Curso ">
                     <h3><a href="#"> Cryptocurrency Online Curso  </a></h3>
                     <!-- <p class="hidden-sm-down">Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal
                         cualidad está en el desarrollo de software a medida de tus necesidades.</p> -->
@@ -191,7 +191,7 @@
                 </article>
 
                 <article class="col-xl-4 wow bounceInUp" data-wow-delay=".6s">
-                    <img src="images/audio-book.svg" alt="Cryptocurrency Audio Libros Gratis ">
+                    <img src="assets/images/audio-book.svg" alt="Cryptocurrency Audio Libros Gratis ">
                     <h3><a href="#">Cryptocurrency Audio Libros Gratis </a></h3>
                     <!-- <p class="hidden-sm-down">Ofrecemos consultoría tecnológica especializada en movilidad, necesaria
                         previo al desarrollo de cualquier proyecto.</p> -->
@@ -199,7 +199,7 @@
                 </article>
 
                 <article class="col-xl-4 wow bounceInRight" data-wow-delay="1s">
-                    <img src="images/pdf.svg" alt="Cryptocurrency Libros PDF Gratis">
+                    <img src="assets/images/pdf.svg" alt="Cryptocurrency Libros PDF Gratis">
                     <h3><a href="#">Cryptocurrency Libros PDF Gratis</a></h3>
                     <!-- <p class="hidden-sm-down">Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu
                         marca en el momento exacto para conseguir un mayor inpacto.</p> -->
@@ -256,26 +256,26 @@
         <div class="container">
             <div class="footerRedSocial mt-1 mb-1 text-xs-center">
 
-                <img src="images/whatsapp.svg" class="img-fluid mr-1 "><a href="#">+503 72625456 </a>
-                <img src="images/email.svg" class="img-fluid ml-3 mr-1"><a href="#">info@tradinglatino.net |
+                <img src="assets/images/whatsapp.svg" class="img-fluid mr-1 "><a href="#">+503 72625456 </a>
+                <img src="assets/images/email.svg" class="img-fluid ml-3 mr-1"><a href="#">info@tradinglatino.net |
                     j.abisai@gmail.com</a></i>
 
                 <div class="container">
                     <div class="iconosRedSocial mt-1">
                         <a href="https://www.facebook.com/TradingLatino.net">
-                            <img src="images/facebook.svg" class="img-fluid rounded">
+                            <img src="assets/images/facebook.svg" class="img-fluid rounded">
                             Facebook
                         </a>
                         <a href="http://twitter.com/TradingLatino">
-                            <img src="images/twitter.svg" class="img-fluid ">
+                            <img src="assets/images/twitter.svg" class="img-fluid ">
                             Twitter
                         </a>
                         <a href="https://www.youtube.com/Tradinglatino">
-                            <img src="images/youtube.svg" class="img-fluid rounded">
+                            <img src="assets/images/youtube.svg" class="img-fluid rounded">
                             Youtube
                         </a>
                         <a href="https://t.me/TradingLatino">
-                            <img src="images/telegram.svg" class="img-fluid">
+                            <img src="assets/images/telegram.svg" class="img-fluid">
                             Teleragm
                         </a>
                     </div>
@@ -298,9 +298,9 @@
 
     <!-- Carga de archivos  JS -->
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script type="text/javascript">
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -328,9 +328,9 @@
         })
 
     </script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/sitio.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/sitio.js"></script>
 
 
 
